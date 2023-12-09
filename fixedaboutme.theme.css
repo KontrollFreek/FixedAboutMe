@@ -1,0 +1,15 @@
+/**
+ * @name FixedAboutMe
+ * @author Lexi
+ * @description Fixes Discord's cut-off "About Me"s
+ * @version 2.0.0
+ * @authorId 506101469787717658
+ * @authorLink https://discord.com/users/506101469787717658
+ * @donate https://ko-fi.com/KontrollFreek
+ * @website https://github.com/KontrollFreek/FixedAboutMe
+ * @source https://git.gay/Lexi/FixedAboutMe/raw/branch/main/fixedaboutme.plugin.js
+ */
+
+[class*="lineClamp2Plus"] {
+    -webkit-box-orient: initial;
+}
